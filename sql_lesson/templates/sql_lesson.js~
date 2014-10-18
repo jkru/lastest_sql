@@ -1,0 +1,1 @@
+var projectTitle = GetElementById("project_title");

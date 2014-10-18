@@ -1,0 +1,11 @@
+<html>
+<body>
+<h1>{{ project_title }} Grades</h1>
+
+<h2>student, grade</h2>
+{% for i in range(students|length) %}
+<a href= "student?a_studentlast={{ students[i]}}" id = "student">{{students[i]}}</a>, {{grades[i]}}</br>
+{% endfor %}
+
+</body>
+</html>

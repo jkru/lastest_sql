@@ -1,0 +1,15 @@
+<html>
+<body>
+<h1>Student: {{last_name}}, {{first_name}}</h1>
+<h2>Github: {{a_student}}</h2>
+<p>This student has shown extreme recalcitrance and has generally proved to be unreliable.</p>
+<p>It is my recommendation that they be put on double-secret probation for the remainder of the course.</p>
+
+<h2>Grades</h2>
+{% for i in range(titles|length) %}
+<a href="{{titles[i]}}">{{titles[i]}}</a><br>
+{{scores[i]}}<br>
+{% endfor %}
+
+</body>
+</html>

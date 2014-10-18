@@ -1,0 +1,11 @@
+<html>
+<body>
+<h1>Blockly Grades</h1>
+
+<h2>student, grade</h2>
+{% for i in range(students|length) %}
+{{students[i]}},{{grades[i]}}</br>
+{% endfor %}
+
+</body>
+</html>
